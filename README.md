@@ -14,7 +14,7 @@ Bu proje, Google Colab üzerinde çalışan bir Employee Management (Çalışan 
 - 🐍 **Python 3.9+**
 - 📂 **Google Colab**
 - 🧮 **Pandas**
-- 📝 (Varsa) Diğer kütüphaneler: NumPy, Matplotlib vb.
+
 
 ---
 
@@ -27,16 +27,16 @@ Alternatif: Notebook’u bilgisayarına indirip [Jupyter Notebook](https://jupyt
 
 ---
 
-### 2️⃣ Drive’ı Bağla
+### 2️⃣ Drive’ı Bağlama
 
-Notebook’u çalıştırmadan önce Drive erişimini aktif et:  
+Notebook’u çalıştırmadan önce Drive erişimini aktif edin. 
 
 ```python
 from google.colab import drive
 drive.mount('/content/drive')
 ```
 
-Drive bağlantısını onayladıktan sonra çalışma klasörünü ayarla:  
+Drive bağlantısını onayladıktan sonra çalışma klasörünü ayarlayın. 
 
 ```python
 import os
@@ -45,7 +45,7 @@ os.chdir('/content/drive/MyDrive/employee-management')
 
 ---
 
-### 3️⃣ Gereken Paketleri Kur
+### 3️⃣ Gereken Paketleri Kurma
 
 Notebook’ta aşağıdaki hücreyi çalıştırarak bağımlılıkları yükleyin:  
 
@@ -55,9 +55,9 @@ Notebook’ta aşağıdaki hücreyi çalıştırarak bağımlılıkları yükley
 
 ---
 
-### 4️⃣ Notebook’u Çalıştır
+### 4️⃣ Notebook’u Çalıştırma
 
-Her hücreyi sırayla çalıştır (Shift + Enter) ve çıktıları gözlemle.
+Her hücreyi sırayla çalıştırıp (Shift + Enter) ve çıktıları gözlemleyin.
 
 ---
 
@@ -66,22 +66,9 @@ Her hücreyi sırayla çalıştır (Shift + Enter) ve çıktıları gözlemle.
 ```
 📁 employee-management/
 ├── employee_management.ipynb   # Google Colab Notebook
-├── requirements.txt            # Bağımlılıklar (varsa)
 └── README.md                   # Proje açıklaması
 ```
 
 ---
 
-## ✨ Katkıda Bulun
 
-Katkı yapmak ister misin?  
-1. Repoyu forkla 🍴  
-2. Yeni bir branch oluştur: `feature/yenilik`  
-3. Değişiklikleri commit et ✅  
-4. Pull request gönder 📥
-
----
-
-## 📜 Lisans
-
-Bu proje [MIT Lisansı](LICENSE) ile korunmaktadır.
